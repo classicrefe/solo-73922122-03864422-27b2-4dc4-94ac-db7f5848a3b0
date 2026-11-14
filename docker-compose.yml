@@ -1,8 +1,8 @@
 services:
-  matching-api:
+  lab-api:
     build: .
-    image: lab-matching-api:latest
-    container_name: lab-matching-api
+    image: lab-quality-api:latest
+    container_name: lab-quality-api
     ports:
       - "8000:8000"
     restart: unless-stopped
